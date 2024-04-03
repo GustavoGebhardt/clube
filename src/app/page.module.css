@@ -14,7 +14,15 @@
 .divTela2{
   width: 100vw;
   height: 100vh;
-  background-color: white;
+  background-color: #2E3182;
+
+  overflow: hidden;
+}
+
+.divTela3{
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
 
   overflow: hidden;
 }
@@ -32,6 +40,16 @@
 .imgSeta{
   width: 30px;
   margin-top: 50px;
+
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.imgSeta:after{
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.imgSeta:hover{
+  transform:scale(1.20,1.20);
 }
 
 .text{
@@ -93,11 +111,13 @@
 @media (max-width: 500px){
   .containerMaster{
     flex-direction: column;
-    gap: 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px black;
+    gap: 20px;
   }
 
   .calendario{
-    padding: 65px;
+    padding: 0 65px 65px 65px;
   }
 
   .divContainerTexto{
@@ -119,6 +139,6 @@
   }
 
   .logo{
-    width: 320px;
+    width: 300px;
   }
 }

@@ -45,6 +45,9 @@ export default function Home() {
           <img className={styles.calendario} src="calendario.png"></img>
         </div>
       </div>
+      <div className={styles.divTela3}>
+
+      </div>
     </div>
   );
 }
