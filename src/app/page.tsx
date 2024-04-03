@@ -21,7 +21,7 @@ export default function Home() {
       <div className={styles.divTela2}>
         <div className={styles.container}>
           <img className={styles.logo} src="logo.png"></img>
-          <p className={styles.text}>
+          <p className={styles.textLogo}>
             Lorem ipsum phasellus nisl quisque<br></br>
             senectus hac ut euismod bibendum<br></br>
             habitant erat aliquam habitant.<br></br>
@@ -31,7 +31,18 @@ export default function Home() {
           </p>
         </div>
         <div className={styles.containerMaster}>
-
+          <div className={styles.divContainerTexto}>
+            <h1 className={styles.tituloEncontros}>Encontros</h1>
+            <p className={styles.paragrafoEncontros}>
+              Lorem ipsum phasellus nisl quisque<br></br>
+              senectus hac ut euismod bibendum<br></br>
+              habitant erat aliquam habitant.<br></br>
+              nulla volutpat quisque pharetra<br></br>
+              magna inceptos mauris suscipit,<br></br>
+              ipsum leo etiam himenaeos
+            </p>
+          </div>
+          <img className={styles.calendario} src="calendario.png"></img>
         </div>
       </div>
     </div>
