@@ -4,6 +4,9 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <div>
+      <img className={styles.imgEstrela1} src="estrela.png"></img>
+      <img className={styles.imgEstrela2} src="estrela.png"></img>
+      <img className={styles.imgEstrela3} src="estrela.png"></img>
       <div className={styles.divImgBackground}>
         <img className={styles.imgBackground} src="background.jpg"></img>
       </div>
