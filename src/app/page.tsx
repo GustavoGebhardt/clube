@@ -51,8 +51,16 @@ export default function Home() {
           <img className={styles.calendario} src="calendario.png"></img>
         </div>
       </div>
+      <div className={styles.divImgBackground2}>
+        <img className={styles.imgBackground} src="background2.jpg"></img>
+      </div>
       <div className={styles.divTela3}>
-
+        <div className={styles.divPosition}></div>
+        <div className={styles.divBorda}></div>
+        <h1 className={styles.tituloExperiencias}>Experiencias<br></br>
+        Conhecimento<br></br>Aprendizado<br></br>Desenvolvimento<br></br>
+        Pesquisa<br></br>Colaboração<br></br>Aprendizado
+        <br></br>Conhecimento<br></br>Aprendizado</h1>
       </div>
     </div>
   );
