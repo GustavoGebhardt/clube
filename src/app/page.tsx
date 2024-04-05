@@ -4,6 +4,16 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <div>
+      <header className={styles.header}>
+        <a className={styles.input} href="#menuHeader"><img className={styles.imgHeader} src="bars-solid.svg"></img></a>
+        <div className={styles.menuHeader} id="menuHeader">
+          <a className={styles.inputFechar} href="/#"><img className={styles.imgHeader} src="xmark-solid.svg"></img></a>
+          <a className={styles.link}>Link</a>
+          <a className={styles.link}>Link</a>
+          <a className={styles.link}>Link</a>
+          <a className={styles.link}>Link</a>
+        </div>
+      </header>
       <img className={styles.imgEstrela1} src="estrela.png"></img>
       <img className={styles.imgEstrela2} src="estrela.png"></img>
       <img className={styles.imgEstrela3} src="estrela.png"></img>
