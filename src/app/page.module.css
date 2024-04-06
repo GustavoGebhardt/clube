@@ -13,7 +13,7 @@
   margin: 10px 0 0 10px;
   opacity: 50%;
 
-  position: absolute;
+  position: fixed;
   z-index: 998;
 
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -32,7 +32,7 @@
   background-color: rgba(0, 0, 0, 0.261);
   border: none;
   border-radius: 5px;
-  margin: 0 30px 637px 0;
+  margin: 0 120px 637px 0;
   opacity: 50%;
 
   position: absolute;
@@ -56,10 +56,11 @@
 .menuHeader{
   width: 200px;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.800);
+  background-color: black;
 
   left: -60%;
   position: fixed;
+  z-index: 999;
 
   display: flex;
   flex-direction: column;
@@ -67,6 +68,8 @@
   justify-content: center;
   gap: 20px;
   transition: left 0.3s ease;
+
+  box-shadow: 0px 0px 40px black;
 }
 
 .menuHeader:target {
@@ -75,6 +78,15 @@
 
 .link{
   color: white;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+
+  background-color: rgba(255, 255, 255, 0.112);
+  padding: 10px;
+  width: 150px;
+  border-radius: 5px;
 }
 
 .divTela1{
@@ -343,5 +355,9 @@
   
   .imgEstrela3{
     display: none;
+  }
+
+  .inputFechar{
+    margin: 0 120px 757px 0;
   }
 }
