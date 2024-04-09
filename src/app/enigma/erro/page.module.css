@@ -2,8 +2,31 @@
   width: 100vw;
   height: 100vh;
   background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .textTitulo{
   color: white;
+  font-size: 150px;
+  user-select: none;
+}
+
+.link{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.divConjunto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media(max-width: 500px){
+  .textTitulo{
+    font-size: 110px;
+  }
 }
