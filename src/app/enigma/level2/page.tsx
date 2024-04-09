@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 import Cookie from "js-cookie";
 import { useRouter } from "next/navigation";
 
-export default function Level1() {
+export default function Level2() {
   const router = useRouter();
   const [inputValue, setInputValue] = useState("");
 

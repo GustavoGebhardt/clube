@@ -20,13 +20,13 @@ export default function Level1() {
 
   return (
     <div>
-      <h1>Fase 1</h1>
-      <input
-        type="text"
-        value={inputValue}
-        onChange={(e) => setInputValue(e.target.value)}
-      />
-      <button onClick={handleLogin}>Enviar</button>
+      <div className={styles.divBackground}>
+        <h1 className={styles.textTitulo}>Fase 1</h1>
+        <div className={styles.divResposta}>
+          <input className={styles.inputResposta} type="text" placeholder="Digite a resposta" value={inputValue} onChange={(e) => setInputValue(e.target.value)}/>
+          <button className={styles.btnEnviar} onClick={handleLogin}>Enviar</button>
+        </div>
+      </div>
     </div>
   );
 }
