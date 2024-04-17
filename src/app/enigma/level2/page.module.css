@@ -33,8 +33,24 @@
   border-radius: 3px;
 }
 
+.divConteudo{
+  user-select: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.codigo{
+  color: white;
+  text-align: center;
+}
+
 @media (max-width: 500px){
   .divResposta{
     margin-top: 65vh;
+  }
+  .codigo{
+    font-size: 13px;
   }
 }

@@ -10,7 +10,7 @@ export default function Level2() {
   const [inputValue, setInputValue] = useState("");
 
   function handleLogin() {
-    if (inputValue === "teste") {
+    if (inputValue === "densowave") {
       Cookie.set("token_level", "level3")
       router.push("/enigma/level3")
     } else{
@@ -22,6 +22,14 @@ export default function Level2() {
     <div>
       <div className={styles.divBackground}>
         <h1 className={styles.textTitulo}>Fase 2</h1>
+        <div className={styles.divConteudo}>
+          <p className={styles.codigo}>
+            "No labirinto de símbolos e cifras, a chave está guardada,<br></br>
+            No bloco B, seu esconderijo, em silêncio é revelado.<br></br>
+            Um emaranhado de quadrados, um enigma cifrado,<br></br>
+            Ao lado dos recados, está o mistério aguardado."
+          </p>
+        </div>
         <div className={styles.divResposta}>
           <input className={styles.inputResposta} type="text" placeholder="Digite a resposta" value={inputValue} onChange={(e) => setInputValue(e.target.value)}/>
           <button className={styles.btnEnviar} onClick={handleLogin}>Enviar</button>
