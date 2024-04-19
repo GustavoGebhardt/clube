@@ -9,6 +9,7 @@ export default function Home() {
           <a className={styles.inputFechar} href="/#"><img className={styles.imgHeader} src="xmark-solid.svg"></img></a>
           <a className={styles.link} href="/">Inicio</a>
           <a className={styles.link}>Programação</a>
+          <a className={styles.link}>Gamificação</a>
           <a className={styles.link}>Contato</a>
           <a className={styles.link}>Sobre</a>
         </div>
