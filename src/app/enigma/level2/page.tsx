@@ -24,10 +24,10 @@ export default function Level2() {
         <h1 className={styles.textTitulo}>Fase 2</h1>
         <div className={styles.divConteudo}>
           <p className={styles.codigo}>
-            "No labirinto de símbolos e cifras, a chave está guardada,<br></br>
+            No labirinto de símbolos e cifras, a chave está guardada,<br></br>
             No bloco B, seu esconderijo, em silêncio é revelado.<br></br>
             Um emaranhado de quadrados, um enigma cifrado,<br></br>
-            Ao lado dos recados, está o mistério aguardado."
+            Ao lado dos recados, está o mistério aguardado.
           </p>
         </div>
         <div className={styles.divResposta}>
