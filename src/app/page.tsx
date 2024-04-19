@@ -23,12 +23,7 @@ export default function Home() {
         <img className={styles.imgLogoTexto} src="/logo-texto.png"></img>
         <div className={styles.divTexto}>
           <p className={styles.text}>
-            Lorem ipsum phasellus nisl quisque<br></br>
-            senectus hac ut euismod bibendum<br></br>
-            habitant erat aliquam habitant.<br></br>
-            nulla volutpat quisque pharetra<br></br>
-            magna inceptos mauris suscipit,<br></br>
-            ipsum leo etiam himenaeos
+            Texto sobre o clube.
           </p>
         </div>
         <img src="seta.png" className={styles.imgSeta}></img>
