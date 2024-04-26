@@ -16,7 +16,7 @@ export default function middleware(request: NextRequest){
   //Validando o token com a url
   else if(parseInt(token.charAt(5)) != parseInt(request.nextUrl.pathname.charAt(13))){
     //Acesso total aos diretorios
-    if(parseInt(token.charAt(5)) === 6){
+    if(parseInt(token.charAt(5)) === 3){
       return null
     }
     //Retornar pagina de erro
@@ -29,9 +29,6 @@ export const config = {
   matcher: [
     "/enigma/level1",
     "/enigma/level2",
-    "/enigma/level3",
-    "/enigma/level4",
-    "/enigma/level5",
     "/enigma/final"
   ]
 }

@@ -17,8 +17,7 @@ export default function Enigma() {
     <div>
       <div className={styles.divBackground}>
         <div className={styles.divInicio}>
-          <img className={styles.imgLogo} src="logo-texto.png"></img>
-          <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quos voluptates error facere nesciunt impedit quidem quas sapiente amet porro eveniet ipsam inventore fuga tenetur labore saepe natus debitis sequi!</p>
+          <p className={styles.text}>Olá.<br></br><br></br> Você está diante do maior misterio do IFRS-Campus Feliz.<br></br><br></br> Estamos ansiosos para conhecer os poucos que vão conseguir atravesar todo o caminho.<br></br><br></br> Existe uma mensagem escondida dentro deste enigma.<br></br><br></br> Encontre-a, e ela vai guiar você pela estrada para nos encontrar.<br></br><br></br> Esperamos você do outro lado.<br></br><br></br> Boa sorte!<br></br><br></br> -C</p>
           <button className={styles.btn} onClick={handleLogin}>Iniciar</button>
         </div>
       </div>

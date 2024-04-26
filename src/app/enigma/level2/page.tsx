@@ -10,9 +10,9 @@ export default function Level2() {
   const [inputValue, setInputValue] = useState("");
 
   function handleLogin() {
-    if (inputValue === "densowave") {
+    if (inputValue === "teste") {
       Cookie.set("token_level", "level3")
-      router.push("/enigma/level3")
+      router.push("/enigma/final")
     } else{
       alert("Codigo Errado!")
     }
