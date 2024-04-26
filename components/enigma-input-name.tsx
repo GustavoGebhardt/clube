@@ -2,6 +2,7 @@
 
 import React from "react";
 import enigmaAddName from "./enigma-add-name";
+import Cookie from "js-cookie";
 import Style from "../styles/page.module.css";
 
 export default function EnigmaInputName(){
@@ -13,6 +14,7 @@ export default function EnigmaInputName(){
     enigmaAddName(dado).then(resultado => {setInfo(resultado)})
     setDado("Confirmado");
     setEstado(true);
+    Cookie.remove("token_level")
   }
 
   return(
