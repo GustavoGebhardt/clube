@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 .div{
   display: flex;
   flex-direction: column;
@@ -6,24 +8,39 @@
 }
 
 .input{
-  width: 180px;
-  height: 20px;
-  border: none;
-  border-radius: 3px; 
-  padding-left: 5px;
-  color: black  ;
+  width: 250px;
+  height: 35px;
+  border: solid 1px white;
+  border-radius: 10px; 
+  padding-left: 10px;
+  background-color: transparent;
+
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 300;
+  font-size: 15px;
+  color: white;
 }
 
 .btn{
   width: 120px;
   height: 30px;
   border: none;
-  border-radius: 3px;
-  color: black; 
-  background-color: white;
+  border-radius: 5px;
+  border: solid 1px white;
+  background-color: black;
+
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 300;
+  font-size: 15px;
+  color: white;
+
+  cursor: pointer;
 }
 
 .info{
-  color: white;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 300;
+  font-size: 15px;
+  color: rgb(43, 139, 65);
   user-select: none;
 }

@@ -7,10 +7,12 @@ import Style from "../styles/page.module.css";
 export default function EnigmaInputName(){
   const [dado, setDado] = React.useState("");
   const [info, setInfo] = React.useState("");
+  const [estado, setEstado] = React.useState(false);
 
   function enviarDado(){
     enigmaAddName(dado).then(resultado => {setInfo(resultado)})
-    setDado("");
+    setDado("Confirmado");
+    setEstado(true);
   }
 
   return(
@@ -20,8 +22,9 @@ export default function EnigmaInputName(){
         value={dado}
         onChange={(e) => setDado(e.target.value)}
         className={Style.input}
+        disabled={estado}
         placeholder="Digite seu nome"></input>
-      <button onClick={enviarDado} className={Style.btn}>Entrar</button>
+      <button onClick={enviarDado} disabled={estado} className={Style.btn}>Enviar</button>
       <h1 className={Style.info}>{info}</h1>
     </div>
   );
