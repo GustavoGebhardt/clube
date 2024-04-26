@@ -1,13 +1,13 @@
-"use client"
-
+import React from "react";
+import EnigmaInputName from "../../../../components/enigma-input-name";
 import styles from "./page.module.css";
 
-export default function Final(){
+export default async function Final(){
+
   return(
-    <div>
       <div className={styles.divBackground}>
         <h1 className={styles.textTitulo}>Final</h1>
+        <EnigmaInputName />
       </div>
-    </div>
   );
 }
