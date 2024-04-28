@@ -1,5 +1,5 @@
 export default async function enigmaAddName(nome: string,){
-  const url = "http://localhost:4000/users";
+  const url = "https://clube-backend.onrender.com/users";
   const dados = {name: nome};
 
   const envio = await fetch(url, {
