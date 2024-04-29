@@ -13,7 +13,7 @@
   height: 400px;
   border: solid rgba(255, 255, 255, 0.5);
   border-radius: 10px;
-  margin-top: 50px;
+  margin-top: 150px;
 
   display: flex;
   flex-direction: column;
@@ -26,4 +26,11 @@
   padding: 30px;
   text-align: justify;
   user-select: none;
+}
+
+@media (max-width: 500px){
+  .divCorpo{
+    width: 350px;
+    height: 350px;
+  }
 }
