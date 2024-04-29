@@ -7,7 +7,7 @@ export default async function Final(){
   return(
       <div className={styles.divBackground}>
         <div className={styles.divCorpo}>
-          <p className={styles.text}>Parabens, você chegou ao final. Como mencionamos, estamos ansiosos para conhecer os poucos que chegaram até aqui. Portanto vamos precisar conhecer você pessoalemnte.<br></br><br></br>Informe seu nome no campo abaixo para garantir sua vaga.<br></br><br></br> Data: 03/05/24<br></br> Local: Laboratorio D8<br></br> Horario: 13:30<br></br><br></br>- C</p>
+          <p className={styles.text}>Parabéns, você chegou ao final. Estamos ansiosos para te conhecer. Venha participar do Clube de Desenvolvimento de Jogos.<br></br><br></br>Informe seu nome no campo abaixo para receber notícias.<br></br><br></br> Data: 03/05/24<br></br> Local: Laboratorio D8<br></br> Horario: 13:30<br></br><br></br>- C</p>
         </div>
         <EnigmaInputName />
       </div>
