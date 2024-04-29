@@ -6,7 +6,7 @@ export default function middleware(request: NextRequest){
   const token = request.cookies.get("token_level")?.value
 
   //URL da pagina de erro
-  const erroURL = new URL("/enigma/erro", request.url)
+  const erroURL = new URL("/enigma", request.url)
 
   //Validando a existência de um token
   if(!token){
@@ -29,6 +29,7 @@ export const config = {
   matcher: [
     "/enigma/level1",
     "/enigma/level2",
-    "/enigma/final"
+    "/enigma/final",
+    "/"
   ]
 }
