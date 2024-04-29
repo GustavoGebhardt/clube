@@ -10,7 +10,7 @@ export default function Level2() {
   const [inputValue, setInputValue] = useState("");
 
   function handleLogin() {
-    if (inputValue === "teste") {
+    if (inputValue === "vocemeachou") {
       Cookie.set("token_level", "level3")
       router.push("/enigma/final")
     } else{
