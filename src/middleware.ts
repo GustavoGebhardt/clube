@@ -30,6 +30,6 @@ export const config = {
     "/enigma/level1",
     "/enigma/level2",
     "/enigma/final",
-    "/"
+    //"/"
   ]
 }

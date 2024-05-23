@@ -32,7 +32,8 @@
   background-color: rgba(0, 0, 0, 0.261);
   border: none;
   border-radius: 5px;
-  margin: 0 120px 637px 0;
+  top: 1%;
+  left: 5%;
   opacity: 50%;
 
   position: absolute;
@@ -275,6 +276,7 @@
 }
 
 .calendario{
+  width: 550px;
   padding: 50px;
 }
 
