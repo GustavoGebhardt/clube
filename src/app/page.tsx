@@ -1,19 +1,10 @@
 import styles from "./page.module.css";
+import Header from "../../components/header";
 
 export default function Home() {
   return (
     <div>
-      <header className={styles.header}>
-        <a className={styles.input} href="#menuHeader"><img className={styles.imgHeader} src="bars-solid.svg"></img></a>
-        <div className={styles.menuHeader} id="menuHeader">
-          <a className={styles.inputFechar} href="/#"><img className={styles.imgHeader} src="xmark-solid.svg"></img></a>
-          <a className={styles.link} href="/">Inicio</a>
-          <a className={styles.link}>Programação</a>
-          <a className={styles.link}>Gamificação</a>
-          <a className={styles.link}>Contato</a>
-          <a className={styles.link}>Sobre</a>
-        </div>
-      </header>
+      <Header />
       <img className={styles.imgEstrela1} src="estrela.png"></img>
       <img className={styles.imgEstrela2} src="estrela.png"></img>
       <img className={styles.imgEstrela3} src="estrela.png"></img>

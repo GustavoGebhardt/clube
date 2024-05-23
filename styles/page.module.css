@@ -44,3 +44,95 @@
   color: rgb(43, 139, 65);
   user-select: none;
 }
+
+.header{
+  position: absolute;
+  z-index: 999;
+}
+
+.input{
+  width: 55px;
+  height: 50px;
+  padding: 8px 12px 8px 12px;
+  background-color: rgba(0, 0, 0, 0.261);
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0 0 10px;
+  opacity: 50%;
+
+  position: fixed;
+  z-index: 998;
+
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.input:after{
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.input:hover{
+  opacity: 100%;
+}
+
+.inputFechar{
+  padding: 8px 12px 8px 12px;
+  background-color: rgba(0, 0, 0, 0.261);
+  border: none;
+  border-radius: 5px;
+  top: 1%;
+  left: 5%;
+  opacity: 50%;
+
+  position: absolute;
+  z-index: 999;
+
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.inputFechar:after{
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.inputFechar:hover{
+  opacity: 100%;
+}
+
+.imgHeader{
+  width: 30px;
+}
+
+.menuHeader{
+  width: 200px;
+  height: 100vh;
+  background-color: black;
+
+  left: -60%;
+  position: fixed;
+  z-index: 999;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  transition: left 0.3s ease;
+
+  box-shadow: 0px 0px 40px black;
+}
+
+.menuHeader:target {
+  left: 0%;
+}
+
+.link{
+  color: white;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+
+  background-color: rgba(255, 255, 255, 0.112);
+  padding: 10px;
+  width: 150px;
+  border-radius: 5px;
+}
