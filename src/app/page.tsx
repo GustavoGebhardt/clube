@@ -62,10 +62,6 @@ export default function Home() {
       <div className={styles.divTela3}>
         <div className={styles.divPosition}></div>
         <div className={styles.divBorda}></div>
-        <h1 className={styles.tituloExperiencias}>Experiencias<br></br>
-        Conhecimento<br></br>Aprendizado<br></br>Desenvolvimento<br></br>
-        Pesquisa<br></br>Colaboração<br></br>Aprendizado
-        <br></br>Conhecimento<br></br>Aprendizado</h1>
       </div>
     </div>
   );

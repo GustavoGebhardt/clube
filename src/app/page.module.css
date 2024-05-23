@@ -315,6 +315,7 @@
 
   .calendario{
     padding: 0 65px 65px 65px;
+    width: none;
   }
 
   .divContainerTexto{
