@@ -22,7 +22,7 @@ export default function EnigmaInputName(){
         type="text"
         value={dado}
         onChange={(e) => setDado(e.target.value)}
-        className={Style.input}
+        className={Style.inputEnviar}
         disabled={estado}
         placeholder="Digite seu nome"></input>
       <button onClick={enviarDado} disabled={estado} className={Style.btn}>Enviar</button>

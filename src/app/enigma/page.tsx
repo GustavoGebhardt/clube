@@ -9,7 +9,7 @@ export default function Enigma() {
   const router = useRouter()
 
   async function handleLogin(){
-    await fetch("https://clube-backend.onrender.com/users")
+    fetch("https://clube-backend.onrender.com/users")
     Cookie.set("token_level", "level1")
     router.push("/enigma/level1")
   }
