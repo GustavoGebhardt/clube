@@ -22,6 +22,7 @@
 }
 
 .divImgBackground2{
+  display: none;
   position: absolute;
   background-color: black;
 }
@@ -94,7 +95,7 @@
 
   overflow: hidden;
 
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   gap: 40px;

@@ -7,10 +7,6 @@ export default function header(){
             <div className={styles.menuHeader} id="menuHeader">
             <a className={styles.inputFechar} href="/#"><img className={styles.imgHeader} src="xmark-solid.svg"></img></a>
             <a className={styles.link} href="/">Inicio</a>
-            <a className={styles.link}>Programação</a>
-            <a className={styles.link} href="/gameficacao">Gamificação</a>
-            <a className={styles.link}>Contato</a>
-            <a className={styles.link}>Sobre</a>
             </div>
       </header>
     );
