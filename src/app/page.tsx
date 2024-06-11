@@ -16,27 +16,20 @@ export default function Home() {
         <img className={styles.imgLogoTexto} src="/logo-texto.png"></img>
         <div className={styles.divTexto}>
           <p className={styles.text}>
-            Se você é um iniciante curioso, um estudante<br></br>
-            buscando experiência prática ou um profissional<br></br>
-            querendo se conectar com a comunidade, o nosso<br></br>
-            clube está aberto para você. Não importa seu nível<br></br>
-            de habilidade ou área de interesse, sempre<br></br>há algo para aprender e compartilhar.
-          </p>
+            Você é apaixonado por jogos 🎮 eletrônicos e<br></br>
+            sonha em criar suas próprias aventuras<br></br>
+            digitais? Quer transformar suas ideias ✨<br></br>
+            em realidade e conhecer pessoas 🤝 que<br></br>
+            compartilham o mesmo entusiasmo? Então,<br></br>
+            o Clube de Desenvolvimento de Jogos<br></br>
+            é o lugar perfeito para você 🫵!
+            </p>
         </div>
         <img src="seta.png" className={styles.imgSeta}></img>
       </div>
       <div className={styles.divTela2}>
         <div className={styles.container}>
           <img className={styles.logo} src="logo.png"></img>
-          <p className={styles.textLogo}>
-           Você é apaixonado por jogos 🎮 eletrônicos e<br></br>
-           sonha em criar suas próprias aventuras<br></br>
-           digitais? Quer transformar suas ideias ✨<br></br>
-           em realidade e conhecer pessoas 🤝 que<br></br>
-           compartilham o mesmo entusiasmo? Então,<br></br>
-           o Clube de Desenvolvimento de Jogos<br></br>
-           é o lugar perfeito para você 🫵!
-          </p>
         </div>
         <div className={styles.containerMaster}>
           <div className={styles.divContainerTexto}>
