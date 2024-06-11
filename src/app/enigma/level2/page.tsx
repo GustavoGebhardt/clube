@@ -28,6 +28,8 @@ export default function Level2() {
             No bloco B, seu esconderijo, em silêncio é revelado.<br></br>
             Um emaranhado de quadrados, um enigma cifrado,<br></br>
             Ao lado dos recados, está o mistério aguardado.
+
+            <br></br><br></br>nao gosto muito da sala dos livros
           </p>
         </div>
         <div className={styles.divResposta}>
