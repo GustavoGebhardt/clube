@@ -11,8 +11,8 @@ export default function Level2() {
 
   function handleLogin() {
     if (inputValue === "vocemeachou") {
-      Cookie.set("token_level", "level3")
-      router.push("/enigma/level3")
+      Cookie.set("token_level", "level4")
+      router.push("/enigma/level4")
     } else{
       alert("Codigo Errado!")
     }
@@ -21,7 +21,7 @@ export default function Level2() {
   return (
     <div>
       <div className={styles.divBackground}>
-        <h1 className={styles.textTitulo}>Fase 2</h1>
+        <h1 className={styles.textTitulo}>Fase 3</h1>
         <div className={styles.divConteudo}>
           <p className={styles.codigo}>
             No labirinto de símbolos e cifras, a chave está guardada,<br></br>
