@@ -46,6 +46,10 @@
   text-align: center;
 }
 
+.imgEnigma{
+  width: 300px;
+}
+
 @media (max-width: 500px){
   .divResposta{
     margin-top: 65vh;

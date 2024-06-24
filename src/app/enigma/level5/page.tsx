@@ -10,7 +10,7 @@ export default function Level2() {
   const [inputValue, setInputValue] = useState("");
 
   function handleLogin() {
-    if (inputValue === "vocemeachou") {
+    if (inputValue === "9799103106109") {
       Cookie.set("token_level", "level6")
       router.push("/enigma/final")
     } else{
@@ -23,14 +23,8 @@ export default function Level2() {
       <div className={styles.divBackground}>
         <h1 className={styles.textTitulo}>Fase 5</h1>
         <div className={styles.divConteudo}>
-          <p className={styles.codigo}>
-            No labirinto de símbolos e cifras, a chave está guardada,<br></br>
-            No bloco B, seu esconderijo, em silêncio é revelado.<br></br>
-            Um emaranhado de quadrados, um enigma cifrado,<br></br>
-            Ao lado dos recados, está o mistério aguardado.
-
-            <br></br><br></br>nao gosto muito da sala dos livros
-          </p>
+          <img className={styles.imgEnigma} src="../localizacao.png" />
+          <p className={styles.codigo}></p>
         </div>
         <div className={styles.divResposta}>
           <input className={styles.inputResposta} type="text" placeholder="Digite a resposta" value={inputValue} onChange={(e) => setInputValue(e.target.value)}/>

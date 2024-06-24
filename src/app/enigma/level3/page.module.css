@@ -46,6 +46,11 @@
   text-align: center;
 }
 
+.codigoEscondido{
+  color: rgb(10, 10, 10);
+  text-align: center;
+}
+
 @media (max-width: 500px){
   .divResposta{
     margin-top: 65vh;
