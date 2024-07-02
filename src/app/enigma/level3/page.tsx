@@ -4,13 +4,14 @@ import { useState } from "react";
 import styles from "./page.module.css";
 import Cookie from "js-cookie";
 import { useRouter } from "next/navigation";
+import getEnv from "../../../../components/get-env";
 
 export default function Level2() {
   const router = useRouter();
   const [inputValue, setInputValue] = useState("");
 
-  function handleLogin() {
-    if (inputValue === "vocedeveraencontrar") {
+  async function handleLogin() {
+    if (inputValue === await getEnv(3)) {
       Cookie.set("token_level", "level4")
       router.push("/enigma/level4")
     } else{
