@@ -8,6 +8,7 @@ export default function header(){
             <a className={styles.inputFechar} href="/#"><img className={styles.imgHeader} src="xmark-solid.svg"></img></a>
             <a className={styles.link} href="/">Inicio</a>
             <a className={styles.link} href="/enigma">Enigma</a>
+            <a className={styles.link} href="/gameficacao">Gameficação</a>
             </div>
       </header>
     );

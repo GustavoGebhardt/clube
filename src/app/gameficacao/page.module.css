@@ -1,0 +1,37 @@
+.divBackground{
+    width: 100vw;
+    height: inherit;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.imgPin{
+    width: 300px;
+}
+
+.divImg{
+    display: flex;
+    flex-direction: column;
+}
+
+.divText{
+    width: 300px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 230px;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+}
+
+.textTitulo{
+    width: 100vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 45px;
+}
