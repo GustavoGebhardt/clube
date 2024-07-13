@@ -24,8 +24,7 @@ export default function Level1() {
       <div className={styles.divBackground}>
         <h1 className={styles.textTitulo}>Fase 1</h1>
         <div className={styles.divConteudo}>
-          <h1 className={styles.codigo}>33 7777 8 2 6 666 7777 3 33 888 666 555 8 2</h1><br></br>
-          <img className={styles.imgTel} src="../telefone.png"/>
+          <h1 className={styles.codigo}>Em que século foi comemorado a primeira festa junina?</h1><br></br>
         </div>
         <div className={styles.divResposta}>
           <input className={styles.inputResposta} type="text" placeholder="Digite a resposta" value={inputValue} onChange={(e) => setInputValue(e.target.value)}/>

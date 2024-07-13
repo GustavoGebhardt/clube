@@ -18,7 +18,7 @@ export default function Enigma() {
     <div>
       <div className={styles.divBackground}>
         <div className={styles.divInicio}>
-          <p className={styles.text}>Olá.<br></br><br></br> Nos voltamos!<br></br><br></br>Esperamos você do outro lado.<br></br><br></br> Boa sorte!<br></br><br></br> - C</p>
+          <p className={styles.text}>Olá.<br></br><br></br> Nos voltamos!<br></br><br></br>Mas desta vez<br></br><br></br> Para comemorar a festa Junina!<br></br><br></br>Boas Festas!<br></br><br></br> - C</p>
           <button className={styles.btn} onClick={handleLogin}>Iniciar</button>
         </div>
       </div>

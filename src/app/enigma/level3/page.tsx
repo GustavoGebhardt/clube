@@ -13,7 +13,7 @@ export default function Level2() {
   async function handleLogin() {
     if (inputValue === await getEnv(3)) {
       Cookie.set("token_level", "level4")
-      router.push("/enigma/level4")
+      router.push("/enigma/final")
     } else{
       alert("Codigo Errado!")
     }
@@ -24,9 +24,7 @@ export default function Level2() {
       <div className={styles.divBackground}>
         <h1 className={styles.textTitulo}>Fase 3</h1>
         <div className={styles.divConteudo}>
-          <h1 className={styles.codigo}>yrfhghyhudhqfrqwudu</h1><br></br>
-          <h1 className={styles.codigo}>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</h1><br></br>
-          <h1 className={styles.codigoEscondido}>&larr; 3</h1>
+          <h1 className={styles.codigo}>Encontre o amigo de Zé das Couves, Professor Vinicus!</h1><br></br>
         </div>
         <div className={styles.divResposta}>
           <input className={styles.inputResposta} type="text" placeholder="Digite a resposta" value={inputValue} onChange={(e) => setInputValue(e.target.value)}/>

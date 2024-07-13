@@ -2,6 +2,8 @@
   width: 100vw;
   height: 100vh;
   background-color: black;
+  background-image: url("../../../../public/festa.jpg");
+  background-size: cover;
 }
 
 .textTitulo{
@@ -47,6 +49,7 @@
 .codigo{
   color: white;
   text-align: center;
+  font-size: 22px;
 }
 
 .imgEnigma{

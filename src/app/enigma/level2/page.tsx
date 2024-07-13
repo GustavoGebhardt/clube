@@ -24,7 +24,7 @@ export default function Level2() {
       <div className={styles.divBackground}>
         <h1 className={styles.textTitulo}>Fase 2</h1>
         <div className={styles.divConteudo}>
-          <img className={styles.imgEnigma} src="../lugarSecreto.png"/>
+          <h1 className={styles.codigo}>Zé das Couves, caipira de nascença, deu azar ao perder sua chave enquanto usava os banheiros do bloco B na festa da cidade. Com sua inseparável palha no dente, Zé das Couves percebeu que a chave perdida era a única maneira de acessar o antigo baú de sua família, que guardava um tesouro lendário. Desanimado por não encontrá-la, ele decidiu confiar no destino, contando histórias e receitas da sua avó para os amigos enquanto esperava a sorte sorrir novamente.</h1><br></br>
         </div>
         <div className={styles.divResposta}>
           <input className={styles.inputResposta} type="text" placeholder="Digite a resposta" value={inputValue} onChange={(e) => setInputValue(e.target.value)}/>
